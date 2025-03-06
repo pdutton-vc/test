@@ -9,3 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: podman -v
+      - run: go version
+      - run: git -v
