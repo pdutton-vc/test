@@ -1,0 +1,11 @@
+name: Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Test:
+    name: Test some stuff
+    runs-on: ubuntu-latest
+    steps:
+      - run: podman -v
