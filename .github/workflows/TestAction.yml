@@ -25,5 +25,5 @@ jobs:
       #    # go-version: 'stable'
       #    go-version: 1.24.1
       - run: pwd
-      - run: ls -l
+      - run: dir
       - run: go run main.go    
