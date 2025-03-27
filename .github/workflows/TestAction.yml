@@ -7,7 +7,6 @@ jobs:
   Test:
     name: Test some stuff
     runs-on: ubuntu-latest
-    steps:
-      - run: podman -v
-      - run: go version
-      - run: git -v
+    steps:      
+      - uses: actions/checkout@v4
+      - run: go run main.go    
